@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global styles */
+body {
+  @apply bg-hackerBlack text-white font-mono min-h-screen;
+  margin: 0;
+  padding: 0;
+}
+
+/* Hacker-style scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0a0a0a;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #14df80;
+  border-radius: 4px;
+}
+
+/* Animations */
+@keyframes pulseGlow {
+  0%, 100% { box-shadow: 0 0 8px #1c9e0b; }
+  50% { box-shadow: 0 0 16px #07940e; }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.animate-pulse {
+  animation: pulseGlow 1.5s infinite;
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.5s ease-in-out forwards;
+}
+
+/* Card styles */
+.card {
+  @apply bg-hackerGray rounded-2xl shadow-xl p-4;
+}
+
+/* Table hover / highlight styles */
+.table-hover tr:hover {
+  @apply bg-hackerBlack transition-colors duration-300;
+}
+
+.alert-high {
+  @apply bg-red-900 animate-pulse;
+}
+
+.alert-medium {
+  @apply bg-yellow-800;
+}
+
+.alert-low {
+  @apply bg-green-800;
+}

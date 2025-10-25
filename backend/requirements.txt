@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+sqlalchemy
+scapy
+pyshark
+requests
+passlib[bcrypt]
+python-jose
+jwt

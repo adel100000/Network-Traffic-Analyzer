@@ -1,0 +1,39 @@
+# Python backend ignores
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+*.db
+*.log
+.env
+.env.*
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Node / Frontend ignores
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+.next/
+out/
+build/
+dist/
+.DS_Store
+
+# Editor / OS stuff
+.vscode/
+.idea/
+*.swp
+*.swo
+Thumbs.db
+.DS_Store
+
+# Test files 
+coverage/
+pytest_cache/

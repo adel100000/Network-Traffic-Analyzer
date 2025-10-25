@@ -1,0 +1,28 @@
+{
+  "name": "cyber-analyzer-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@headlessui/react": "^1.7.15",
+    "@heroicons/react": "^2.1.5",
+    "axios": "^1.6.8",
+    "framer-motion": "^11.0.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "recharts": "^2.12.7"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.24",
+    "@types/react-dom": "^18.3.7",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^3.4.3",
+    "typescript": "^5.9.2",
+    "vite": "^5.1.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  }
+}
